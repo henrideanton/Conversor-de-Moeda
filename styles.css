@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    background: #9dd69d;
+}
+
+h1{
+    color: #fafafa;
+    line-height: 45px;
+    font-weight: 700;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.upper-logo{
+    height: 200px;
+    width: 200px;
+    display: block;
+    border-width: 1px;
+    border-radius: 15px;
+    border-color: #4d6e4d;
+    margin: 12px auto;
+}
+
+main{
+    width: 376px;
+    height: 550px;
+    border: none;
+    border-radius: 20px;
+    background: #fbfbfb;
+    margin:0 auto;
+    padding: 15px;
+}
+
+
+.base-selected, .currency-select, .currency-base-selected, input{
+    width: 100%;
+    height: 36px;
+    border-radius: 5px;
+    border: 1px solid #BBB;
+    background: #FFF;
+    margin-bottom: 20px;
+    appearance: none;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555555;
+    cursor: pointer;
+}
+
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 30px;
+    color:#fafafa;
+    background: #4b664b;
+    border: 1px solid #395039;    
+    margin: 0 auto 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+button:hover{
+    opacity: 0.8;
+}
+
+button:active{
+    opacity: 0.6;
+}
+
+section{
+    border: 1px solid #395039;
+    height: 248px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    align-items: center;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-vector{
+    width: 20px;
+    height: 20px;
+    margin: 15px 0;
+}
+
+
+.currency-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+
+.currency-coin-base, .currency-coin-converted{
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
